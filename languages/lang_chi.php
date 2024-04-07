@@ -5,10 +5,6 @@
 // 该文件仅作为您自己翻译的基础！
 # END REMOVE_FROM_BUILD
 // 阅读我们的 wiki 了解如何翻译：https://bitbucket.org/phpliteadmin/public/wiki/Localization
-# 安装本地化版本
-//  更改默认语言，请将语言文件保存在phpliteadmin.php文件夹中, 子文件夹“languages”目录中，
-// 要使用该语言，您需要对phpliteadmin.php其进行配置。将$language = 'chi';  设置为您的语言的语言代码
-
 $lang = array(
 	"direction" => "LTR",
 	"date_format" => 'g:ia \o\n F j, Y (T)',  // 请参阅 http://php.net/manual/en/function.date.php 了解字母的含义
@@ -39,8 +35,8 @@ $lang = array(
 	"export" => "导出",
 	"import" => "导入",
 	"rename" => "改名",
-	"empty" => "清空",
-	"drop" => "删除",
+	"empty" => "清空表",
+	"drop" => "删除表",
 	"tbl" => "数据表",
 	"chart" => "图表",
 	"err" => "错误",
